@@ -30,6 +30,9 @@ as we need for a certain floor. So if you want to make a pub, which has tables
 with drinks on it, you would need a layer for the tables (objectsBelow0), and
 then another layer above it (objectsBelow0), on which you could put the drinks.
 
+Jumping between rooms requires specially named layers - look in main.tmx and
+read the guide for examples on how.
+
 Exporting
 ---------
 
