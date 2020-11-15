@@ -23,6 +23,10 @@ We have a 'base' layer, on which we put floors and walls.
 
 We have a 'start' layer, on which we put tiles that the player can spawn on.
 
+We have a background layer, which I just fill with space. You can randomly fill
+with space by selecting multiple tiles in the tileset, selecting the Bucket Fill
+(F) tool, and turning on Random Mode (D).
+
 There are tile layers named like 'objectsAboveX' and 'objectsBelowX'. The 'above'
 and 'below' refer to their position above or below the floorLayer, which is the
 layer on which the player's sprite moves. Idea being we make as many of these
