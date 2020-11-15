@@ -51,3 +51,11 @@ Requirements for exporting a map for use with RC3:
 
 Export the map to json, ideally keeping the same name (i.e. main.tmx -> main.json).
 We must have at least a main.json as the start map. See https://howto.rc3.world/maps.html for stuff I missed
+
+Hosting
+-------
+
+To host, you need to upload the exported .json files and the ss13-icons directory
+to a publicly-accessible HTTPS endpoint with a content-origin policy that lets
+https://play.wa-test.rc3.cccv.de access it. Once uploaded, you can access your
+room by going to https://play.wa-test.rc3.cccv.de/_/global/your.website.com/main.json
