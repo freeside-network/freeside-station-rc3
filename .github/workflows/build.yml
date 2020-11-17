@@ -22,5 +22,9 @@ jobs:
         env:
           SSH_KEY_PATH: ${{ github.workspace }}/../private.key
         run: |
-          echo "hello" > test
-          scp -o "StrictHostKeyChecking=no" -i $SSH_KEY_PATH test freesidestn@freeside.network:test
+          sudo apt-get -y update
+          sudo apt-get -y install xvfb curl
+          curl -L https://github.com/bjorn/tiled/releases/download/v1.4.2/Tiled-1.4.2-x86_64.AppImage > "$HOME/tiled"
+          chmod +x "$HOME/tiled"
+          xvfb-run "$HOME/tiled" --version
+          ./scripts/build.sh
