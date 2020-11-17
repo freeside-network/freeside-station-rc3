@@ -1,6 +1,8 @@
 name: Build & deploy
 on:
-  push
+  push:
+    branches: 
+      - master
 
 jobs:
   build_and_deploy:
