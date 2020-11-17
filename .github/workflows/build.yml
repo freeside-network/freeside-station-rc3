@@ -22,6 +22,5 @@ jobs:
         env:
           SSH_KEY_PATH: ${{ github.workspace }}/../private.key
         run: |
-          echo $SSH_KEY_PATH
-          ls -lh $SSH_KEY_PATH
-          ssh -o "StrictHostKeyChecking=no" -i $SSH_KEY_PATH freesidestn@freeside.network echo test
+          echo "hello" > test
+          scp -o "StrictHostKeyChecking=no" -i $SSH_KEY_PATH test freesidestn@freeside.network:test
