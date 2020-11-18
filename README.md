@@ -1,3 +1,5 @@
+![Build & deploy](https://github.com/freeside-network/freeside-station-rc3/workflows/Build%20&%20deploy/badge.svg)
+
 Concepts
 --------
 
