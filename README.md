@@ -11,9 +11,9 @@ Concepts
 Style guide
 -----------
 
-Put tilesets in the `/tilesets` dir. Put maps in the root dir. Maybe don't commit
-exported .json maps... we still need to work out how we're gonna auto-export or
-'build' the thing for RC3.
+- Put tilesets in the `/tilesets` dir.
+- Put maps in the root dir.
+- For any custom sprites or whatever, make a top-level directory.
 
 Layer guide
 -----------
@@ -45,21 +45,25 @@ Exporting
 Requirements for exporting a map for use with RC3:
 
 - It *must not* be infinite (you can uncheck 'infinite' in map properties to make this so)
-- Its tilesets *must* be embedded. In this repo, we keep the tilesets separate
-    since it allows for easier collab. To embed the tilesets on export, go to:
-    Edit, Preferences. Towards the middle is a checkbox that reads 'Embed
-    tilesets'. Make sure this is checked.
 - It *must* have **EITHER** a layer named `start` on which there are 1 or more
     tiles, **OR** a layer with the custom property `startLayer` of type bool,
     set to true.
 - It *must* have an object layer called 'floorLayer'. This represents the layer
     on which the player's sprite will move around.
 
-Export the map to json, ideally keeping the same name (i.e. main.tmx -> main.json).
+Exporting and uploading the map to station.freeside.network is handled as part
+of our CI job for an commits to `master`. If you want to test on your own
+instance... you're on your own (until s3krit can be arsed to make a staging env)
 We must have at least a main.json as the start map. See https://howto.rc3.world/maps.html for stuff I missed
 
 Hosting
 -------
+
+Our CI will automatically handle building and exporting the JSONs, and uploading
+them to station.freeside.network. To access our station, simply point your web
+browser at the following internet website address:
+
+https://play.wa-test.rc3.cccv.de/_/global/station.freeside.network/
 
 To host, you need to upload the exported .json files and the ss13-icons directory
 to a publicly-accessible HTTPS endpoint with a content-origin policy that lets
