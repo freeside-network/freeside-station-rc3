@@ -5,7 +5,7 @@
  <tileset firstgid="867" source="tilesets/plain_door.tsx"/>
  <tileset firstgid="897" source="tilesets/glass_table.tsx"/>
  <tileset firstgid="946" source="tilesets/kitchen.tsx"/>
- <tileset firstgid="1056" source="oc-tiles/clubmate.tsx"/>
+ <tileset firstgid="1056" source="tilesets/clubmate.tsx"/>
  <tileset firstgid="1057" source="tilesets/drinks.tsx"/>
  <tileset firstgid="1457" source="tilesets/sofa.tsx"/>
  <tileset firstgid="1538" source="tilesets/structures.tsx"/>
