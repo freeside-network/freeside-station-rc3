@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="22" height="160" tilewidth="32" tileheight="32" infinite="0" nextlayerid="20" nextobjectid="1">
+ <editorsettings>
+  <export target="draft_freeside.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" source="tilesets/sci-fi.tsx"/>
  <tileset firstgid="721" source="tilesets/space.tsx"/>
  <tileset firstgid="1297" source="tilesets/skull_floor_tiles.tsx"/>
  <tileset firstgid="1303" source="tilesets/barsigns.tsx"/>
  <tileset firstgid="2115" source="tilesets/vending.tsx"/>
  <tileset firstgid="2667" source="tilesets/rc3-freeside-sign.tsx"/>
- <tileset firstgid="2923" source="../Desktop/freeside-stn/tilesets/contraband.tsx"/>
- <tileset firstgid="3044" source="../Desktop/freeside-stn/tilesets/structures.tsx"/>
+ <tileset firstgid="2923" source="tilesets/contraband.tsx"/>
+ <tileset firstgid="3044" source="tilesets/structures.tsx"/>
  <tileset firstgid="3485" source="tilesets/clubmate.tsx"/>
  <tileset firstgid="3486" source="tilesets/sofa.tsx"/>
  <layer id="19" name="collision" width="22" height="160">
@@ -174,7 +177,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="16" name="start" width="22" height="160">
+ <layer id="16" name="start" width="22" height="160" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
