@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.4" tiledversion="1.4.3" name="cccamp2019" tilewidth="32" tileheight="32" tilecount="256" columns="16">
  <image source="../oc-tiles/cccamp2019.png" width="512" height="512"/>
+ <tile id="0">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="1">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="2">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="16">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="17">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="18">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="19">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="21">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="32">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="33">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="34">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
  <tile id="35">
   <animation>
    <frame tileid="35" duration="200"/>
@@ -39,6 +94,46 @@
    <frame tileid="53" duration="200"/>
    <frame tileid="37" duration="200"/>
   </animation>
+ </tile>
+ <tile id="39">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="42">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="55">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="58">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="103">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="106">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="119">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="122">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
  </tile>
  <tile id="128">
   <animation>
@@ -132,6 +227,9 @@
   </animation>
  </tile>
  <tile id="161">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
   <animation>
    <frame tileid="161" duration="300"/>
    <frame tileid="164" duration="300"/>
@@ -156,5 +254,25 @@
    <frame tileid="165" duration="300"/>
    <frame tileid="162" duration="300"/>
   </animation>
+ </tile>
+ <tile id="164">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="167">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="170">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+ </tile>
+ <tile id="173">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
  </tile>
 </tileset>
