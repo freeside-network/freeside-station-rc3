@@ -275,4 +275,121 @@
    <property name="collides" type="bool" value="true"/>
   </properties>
  </tile>
+ <tile id="176">
+  <animation>
+   <frame tileid="176" duration="300"/>
+   <frame tileid="179" duration="300"/>
+   <frame tileid="182" duration="300"/>
+   <frame tileid="185" duration="300"/>
+   <frame tileid="188" duration="300"/>
+   <frame tileid="185" duration="300"/>
+   <frame tileid="182" duration="300"/>
+   <frame tileid="179" duration="300"/>
+   <frame tileid="176" duration="300"/>
+  </animation>
+ </tile>
+ <tile id="177">
+  <animation>
+   <frame tileid="177" duration="300"/>
+   <frame tileid="180" duration="300"/>
+   <frame tileid="183" duration="300"/>
+   <frame tileid="186" duration="300"/>
+   <frame tileid="189" duration="300"/>
+   <frame tileid="186" duration="300"/>
+   <frame tileid="183" duration="300"/>
+   <frame tileid="180" duration="300"/>
+   <frame tileid="177" duration="300"/>
+  </animation>
+ </tile>
+ <tile id="178">
+  <animation>
+   <frame tileid="178" duration="300"/>
+   <frame tileid="181" duration="300"/>
+   <frame tileid="184" duration="300"/>
+   <frame tileid="187" duration="300"/>
+   <frame tileid="190" duration="300"/>
+   <frame tileid="187" duration="300"/>
+   <frame tileid="184" duration="300"/>
+   <frame tileid="181" duration="300"/>
+   <frame tileid="178" duration="300"/>
+  </animation>
+ </tile>
+ <tile id="192">
+  <animation>
+   <frame tileid="192" duration="300"/>
+   <frame tileid="195" duration="300"/>
+   <frame tileid="198" duration="300"/>
+   <frame tileid="201" duration="300"/>
+   <frame tileid="204" duration="300"/>
+   <frame tileid="201" duration="300"/>
+   <frame tileid="198" duration="300"/>
+   <frame tileid="195" duration="300"/>
+   <frame tileid="192" duration="300"/>
+  </animation>
+ </tile>
+ <tile id="193">
+  <animation>
+   <frame tileid="193" duration="300"/>
+   <frame tileid="196" duration="300"/>
+   <frame tileid="199" duration="300"/>
+   <frame tileid="202" duration="300"/>
+   <frame tileid="205" duration="300"/>
+   <frame tileid="202" duration="300"/>
+   <frame tileid="199" duration="300"/>
+   <frame tileid="196" duration="300"/>
+   <frame tileid="193" duration="300"/>
+  </animation>
+ </tile>
+ <tile id="194">
+  <animation>
+   <frame tileid="194" duration="300"/>
+   <frame tileid="197" duration="300"/>
+   <frame tileid="200" duration="300"/>
+   <frame tileid="203" duration="300"/>
+   <frame tileid="206" duration="300"/>
+   <frame tileid="203" duration="300"/>
+   <frame tileid="200" duration="300"/>
+   <frame tileid="197" duration="300"/>
+   <frame tileid="194" duration="300"/>
+  </animation>
+ </tile>
+ <tile id="208">
+  <animation>
+   <frame tileid="208" duration="300"/>
+   <frame tileid="211" duration="300"/>
+   <frame tileid="214" duration="300"/>
+   <frame tileid="217" duration="300"/>
+   <frame tileid="220" duration="300"/>
+   <frame tileid="217" duration="300"/>
+   <frame tileid="214" duration="300"/>
+   <frame tileid="211" duration="300"/>
+   <frame tileid="208" duration="300"/>
+  </animation>
+ </tile>
+ <tile id="209">
+  <animation>
+   <frame tileid="209" duration="300"/>
+   <frame tileid="212" duration="300"/>
+   <frame tileid="215" duration="300"/>
+   <frame tileid="218" duration="300"/>
+   <frame tileid="221" duration="300"/>
+   <frame tileid="218" duration="300"/>
+   <frame tileid="215" duration="300"/>
+   <frame tileid="212" duration="300"/>
+   <frame tileid="209" duration="300"/>
+  </animation>
+ </tile>
+ <tile id="210">
+  <animation>
+   <frame tileid="210" duration="300"/>
+   <frame tileid="213" duration="300"/>
+   <frame tileid="216" duration="300"/>
+   <frame tileid="219" duration="300"/>
+   <frame tileid="222" duration="300"/>
+   <frame tileid="219" duration="300"/>
+   <frame tileid="216" duration="300"/>
+   <frame tileid="213" duration="300"/>
+   <frame tileid="210" duration="300"/>
+  </animation>
+ </tile>
 </tileset>
