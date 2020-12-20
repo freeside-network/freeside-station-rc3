@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="38" nextobjectid="1">
+ <tileset firstgid="1" source="tilesets/floors.tsx"/>
+ <tileset firstgid="757" source="tilesets/space.tsx"/>
+ <tileset firstgid="1333" source="tilesets/walls.tsx"/>
+ <tileset firstgid="1443" source="tilesets/plain_wall.tsx"/>
+ <tileset firstgid="1507" source="tilesets/plain_door.tsx"/>
+ <tileset firstgid="1537" source="tilesets/cccamp2019.tsx"/>
+ <tileset firstgid="1793" source="tilesets/sofa.tsx"/>
+ <tileset firstgid="1874" source="tilesets/plants.tsx"/>
+ <tileset firstgid="1910" source="tilesets/contraband.tsx"/>
+ <tileset firstgid="2031" source="tilesets/lights.tsx"/>
+ <layer id="2" name="background" width="8" height="8">
+  <data encoding="csv">
+805,806,807,808,809,810,811,812,
+773,760,775,761,773,770,762,768,
+763,774,768,766,767,775,768,769,
+767,765,765,773,767,766,775,775,
+766,759,766,762,765,762,771,767,
+766,775,772,767,773,761,766,763,
+770,765,772,771,773,760,761,767,
+772,765,761,763,771,774,759,770
+</data>
+ </layer>
+ <layer id="3" name="base" width="8" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,1449,1455,1455,1455,1455,1453,0,
+0,1446,121,121,121,121,1446,0,
+0,1446,121,121,121,121,1446,0,
+0,1446,121,121,121,121,1446,0,
+0,1446,121,121,121,121,1446,0,
+0,1448,1455,121,121,1455,1452,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="doors" width="8" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,121,121,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,1507,1507,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="33" name="posters" width="8" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,1946,0,0,0,0,1958,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,1960,0,0,0,0,1948,0,
+0,0,1992,0,0,2023,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="30" name="sofa" width="8" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,1843,1849,1849,1841,0,0,
+0,0,1847,0,0,1856,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="35" name="shark" width="8" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,1761,1762,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="32" name="plants" width="8" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,1881,0,0,1881,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="start" width="8" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,121,121,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="36" name="darkness" width="8" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,2083,2083,2083,2083,2083,2083,0,
+0,2083,2083,2083,2083,2083,2083,0,
+0,2083,2083,2083,2083,2083,2083,0,
+0,2083,2083,2083,2083,2083,2083,0,
+0,2083,2083,2083,2083,2083,2083,0,
+0,2083,2083,2083,2083,2083,2083,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="31" name="lights" width="8" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,2031,0,0,2031,0,0,
+0,0,2047,0,0,2047,0,0,
+0,0,2063,0,0,2063,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="37" name="neon_signs" width="8" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,2079,2080,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="floorLayer"/>
+</map>
