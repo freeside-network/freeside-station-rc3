@@ -5,6 +5,7 @@
  <tileset firstgid="1297" source="tilesets/floppy.tsx"/>
  <tileset firstgid="1298" source="tilesets/sofa.tsx"/>
  <tileset firstgid="1379" source="tilesets/contraband.tsx"/>
+ <tileset firstgid="1500" source="tilesets/arcade.tsx"/>
  <layer id="6" name="start" width="10" height="8">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,
@@ -18,6 +19,9 @@
 </data>
  </layer>
  <layer id="5" name="collision" width="10" height="8">
+  <properties>
+   <property name="collision" type="bool" value="true"/>
+  </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
@@ -41,7 +45,6 @@
 1253,1253,1253,1260,1260,1260,1260,1253,1253,1253
 </data>
  </layer>
- <objectgroup id="7" name="floorLayer"/>
  <layer id="4" name="Tile Layer 4" width="10" height="8">
   <data encoding="csv">
 0,0,6,7,0,0,0,0,0,0,
@@ -71,11 +74,12 @@
 0,0,0,0,0,0,0,0,0,1498,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,2147483991,0,0,0,0,
-0,0,0,0,0,0,0,1314,1318,1298,
-0,0,0,0,0,0,0,0,0,2147484964,
+0,0,0,0,1500,1519,0,1314,1318,1298,
+0,0,0,0,1508,1527,0,0,0,2147484964,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="7" name="floorLayer"/>
 </map>
