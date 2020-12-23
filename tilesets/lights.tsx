@@ -40,6 +40,15 @@
    <frame tileid="32" duration="100"/>
   </animation>
  </tile>
+ <tile id="37">
+  <animation>
+   <frame tileid="37" duration="500"/>
+   <frame tileid="38" duration="500"/>
+   <frame tileid="39" duration="500"/>
+   <frame tileid="38" duration="500"/>
+   <frame tileid="37" duration="500"/>
+  </animation>
+ </tile>
  <tile id="48">
   <animation>
    <frame tileid="48" duration="500"/>
