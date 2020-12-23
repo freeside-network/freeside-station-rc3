@@ -63,9 +63,9 @@ Our CI will automatically handle building and exporting the JSONs, and uploading
 them to station.freeside.network. To access our station, simply point your web
 browser at the following internet website address:
 
-https://play.wa-test.rc3.cccv.de/_/global/station.freeside.network/
+https://test.visit.at.wa-test.rc3.cccv.de/_/global/station.freeside.network/draft_freeside.json
 
 To host, you need to upload the exported .json files and the ss13-icons directory
 to a publicly-accessible HTTPS endpoint with a content-origin policy that lets
-https://play.wa-test.rc3.cccv.de access it. Once uploaded, you can access your
-room by going to https://play.wa-test.rc3.cccv.de/_/global/your.website.com/main.json
+https://test.visit.at.wa-test.rc3.cccv.de access it. Once uploaded, you can access your
+room by going to https://test.visit.at.wa-test.rc3.cccv.de/_/global/your.website.com/main.json
