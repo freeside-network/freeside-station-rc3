@@ -44,5 +44,5 @@ jobs:
           files: './freeside-station-built/.'
           email: "auto-deploy@freeside.network"
           name: "Station auto-deployer"
-          token: ${{ secrets.DEPLOY_TOKEN}}
+          token: ${{ secrets.DEPLOY_TOKEN }}
           branch: main
