@@ -35,8 +35,8 @@ jobs:
           repository: 'https://github.com/freeside-network/freeside-station-built.git'
           path: './freeside-station-built'
       - run: |
-        cp ${GITHUB_WORKSPACE}/*.json ./freeside-station-built/
-        cat images_to_sync | xargs -I % cp % ./freeside-station-built/
+          cp ${GITHUB_WORKSPACE}/*.json ./freeside-station-built/
+          cat images_to_sync | xargs -I % cp % ./freeside-station-built/
       - uses: actions-x/commit@v2
         working-directory: "${{ github.workspace }}/freeside-station-built"
         with: 
