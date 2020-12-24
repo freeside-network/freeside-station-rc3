@@ -39,8 +39,7 @@ jobs:
           cp ${GITHUB_WORKSPACE}/*.json ./freeside-station-built/
           cat images_to_sync | xargs -I % cp % ./freeside-station-built/
       - uses: stefanzweifel/git-auto-commit-action@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN}}
         with: 
           repository: './freeside-station-built'
           branch: main
+          token: ${{ secrets.DEPLOY_TOKEN }}
