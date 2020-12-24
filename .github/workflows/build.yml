@@ -34,6 +34,7 @@ jobs:
         with:
           repository: 'freeside-network/freeside-station-built.git'
           path: './freeside-station-built'
+          ref: main
       - run: |
           cp ${GITHUB_WORKSPACE}/*.json ./freeside-station-built/
           cat images_to_sync | xargs -I % cp % ./freeside-station-built/
@@ -44,3 +45,4 @@ jobs:
           email: "auto-deploy@freeside.network"
           name: "Station auto-deployer"
           token: ${{ secrets.DEPLOY_TOKEN}}
+          branch: main
