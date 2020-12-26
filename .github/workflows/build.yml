@@ -35,6 +35,7 @@ jobs:
           repository: 'freeside-network/freeside-station-built.git'
           path: './freeside-station-built'
           ref: main
+          token: ${{ secrets.DEPLOY_TOKEN }}
       - run: |
           cp ${GITHUB_WORKSPACE}/*.json ./freeside-station-built/
           cat images_to_sync | xargs -I % cp % ./freeside-station-built/
