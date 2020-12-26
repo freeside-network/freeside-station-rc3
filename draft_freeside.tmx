@@ -30,7 +30,7 @@
  <tileset firstgid="8933" source="tilesets/mini capy.tsx"/>
  <tileset firstgid="9017" source="tilesets/satellite.tsx"/>
  <tileset firstgid="9018" source="tilesets/power.tsx"/>
- <layer id="32" name="twink_hole" width="22" height="120" visible="0">
+ <layer id="32" name="twink_hole" width="22" height="120">
   <properties>
    <property name="exitUrl" value="twink_hole.json"/>
    <property name="startLayer" type="bool" value="true"/>
@@ -158,7 +158,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="39" name="test" width="22" height="120" visible="0">
+ <layer id="39" name="test" width="22" height="120">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
   </properties>
@@ -214,8 +214,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,8338,8338,8338,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,8338,8338,8338,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,452,452,8338,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,452,452,8338,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -285,7 +285,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="37" name="top_freeside_left" width="22" height="120" visible="0">
+ <layer id="37" name="top_freeside_left" width="22" height="120">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
   </properties>
@@ -412,7 +412,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="38" name="top_freeside_right" width="22" height="120" visible="0">
+ <layer id="38" name="top_freeside_right" width="22" height="120">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
   </properties>
@@ -539,7 +539,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="35" name="emergency_bar" width="22" height="120" visible="0">
+ <layer id="35" name="emergency_bar" width="22" height="120">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
   </properties>
@@ -666,7 +666,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="36" name="bar_with_a_cat" width="22" height="120" visible="0">
+ <layer id="36" name="bar_with_a_cat" width="22" height="120">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
   </properties>
@@ -793,7 +793,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="34" name="cccampy2019" width="22" height="120" visible="0">
+ <layer id="34" name="cccampy2019" width="22" height="120">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
   </properties>
@@ -920,7 +920,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="33" name="unix" width="22" height="120" visible="0">
+ <layer id="33" name="unix" width="22" height="120">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
   </properties>
@@ -1171,7 +1171,7 @@
 3415,3415,3415,3415,3415,3415,3415,3415,0,0,0,0,0,0,3415,3415,3415,3415,3415,3415,3367,3367
 </data>
  </layer>
- <layer id="16" name="start" width="22" height="120" visible="0">
+ <layer id="16" name="start" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1295,7 +1295,7 @@
 0,0,0,0,0,0,0,0,686,686,686,686,686,686,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="3" name="space" width="22" height="120" visible="0">
+ <layer id="3" name="space" width="22" height="120">
   <data encoding="csv">
 812,797,776,811,803,721,739,819,740,783,777,806,813,813,759,762,780,814,787,749,731,728,
 755,744,732,766,786,776,748,814,799,724,798,745,746,740,805,743,761,737,796,748,783,735,
@@ -1419,7 +1419,7 @@
 807,754,725,819,751,725,785,787,810,758,797,814,793,793,791,727,773,722,799,813,814,784
 </data>
  </layer>
- <layer id="17" name="backup_base_DONOTTOUCH" width="22" height="120" visible="0" locked="1">
+ <layer id="17" name="backup_base_DONOTTOUCH" width="22" height="120" locked="1">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1543,7 +1543,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="1" name="base" width="22" height="120" visible="0">
+ <layer id="1" name="base" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,684,684,684,684,684,684,684,684,684,684,0,0,0,0,0,0,
@@ -1667,7 +1667,7 @@
 0,0,0,0,0,0,0,0,341,342,341,342,341,342,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="30" name="base1" width="22" height="120" visible="0">
+ <layer id="30" name="base1" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1791,7 +1791,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="28" name="opaque_base" width="22" height="120" visible="0" offsetx="0" offsety="-18">
+ <layer id="28" name="opaque_base" width="22" height="120" offsetx="0" offsety="-18">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1915,7 +1915,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="14" name="building_deadspace1" width="22" height="120" visible="0">
+ <layer id="14" name="building_deadspace1" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2039,7 +2039,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="12" name="building_deadspace2" width="22" height="120" visible="0">
+ <layer id="12" name="building_deadspace2" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2163,7 +2163,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="6" name="below0" width="22" height="120" visible="0">
+ <layer id="6" name="below0" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,2147483931,2147483930,2147483929,0,0,0,0,281,282,283,0,0,0,0,0,0,
@@ -2287,7 +2287,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="11" name="below1" width="22" height="120" visible="0">
+ <layer id="11" name="below1" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2411,7 +2411,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="5" name="ground_walls" width="22" height="120" visible="0">
+ <layer id="5" name="ground_walls" width="22" height="120">
   <data encoding="csv">
 0,0,0,280,325,2147483925,141,141,141,141,141,141,141,141,141,141,277,2684354885,2684354840,0,0,0,
 0,0,280,325,2147483925,2147483970,46,46,46,46,46,46,46,46,46,46,322,277,2684354885,2684354840,0,0,
@@ -2535,7 +2535,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="15" name="above0" width="22" height="120" visible="0">
+ <layer id="15" name="above0" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2659,7 +2659,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="18" name="above1" width="22" height="120" visible="0">
+ <layer id="18" name="above1" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2783,7 +2783,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="13" name="graffiti" width="22" height="120" visible="0">
+ <layer id="13" name="graffiti" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2907,8 +2907,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="2" name="floorLayer" visible="0"/>
- <layer id="4" name="outside_walls" width="22" height="120" visible="0">
+ <objectgroup id="2" name="floorLayer"/>
+ <layer id="4" name="outside_walls" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -3032,7 +3032,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="23" name="faux_deadspace0" width="22" height="120" visible="0">
+ <layer id="23" name="faux_deadspace0" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -3156,7 +3156,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="24" name="faux_deadspace1" width="22" height="120" visible="0">
+ <layer id="24" name="faux_deadspace1" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -3280,7 +3280,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="22" name="faux_height_building0" width="22" height="120" visible="0">
+ <layer id="22" name="faux_height_building0" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -3404,7 +3404,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="21" name="height_above0" width="22" height="120" visible="0">
+ <layer id="21" name="height_above0" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -3528,7 +3528,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="25" name="height_above1" width="22" height="120" visible="0">
+ <layer id="25" name="height_above1" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -3652,7 +3652,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="20" name="height_graffitti" width="22" height="120" visible="0">
+ <layer id="20" name="height_graffitti" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -3776,7 +3776,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="29" name="height_graffitti_2" width="22" height="120" visible="0">
+ <layer id="29" name="height_graffitti_2" width="22" height="120">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
