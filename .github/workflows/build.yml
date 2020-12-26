@@ -33,13 +33,13 @@ jobs:
       - run: |
           mkdir bin
           cp ${GITHUB_WORKSPACE}/*.json ./bin/
-          cat images_to_sync | xargs -I % cp % ./bin/
+          rsync -Pav --files-from=images-to-sync . ./bin/
       - name: Push to the built repo
         uses: cpina/github-action-push-to-another-repository@master
         env:
           API_TOKEN_GITHUB: ${{ secrets.DEPLOY_TOKEN }}
         with:
-          source-directory: './bin'
+          source-directory: 'bin'
           destination-github-username: 'freeside-bot'
           destination-repository-username: 'freeside-network'
           destination-repository-name: 'freeside-station-built'
