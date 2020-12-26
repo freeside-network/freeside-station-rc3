@@ -42,6 +42,7 @@ jobs:
         with: 
           repository: 'https://github.com/freeside-network/freeside-station-built'
           files: './freeside-station-built/.'
+          name: freeside-bot
           branch: main
           token: ${{ secrets.DEPLOY_TOKEN }}
           force: true
