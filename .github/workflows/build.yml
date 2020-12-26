@@ -30,20 +30,16 @@ jobs:
           chmod +x "$HOME/tiled"
           xvfb-run "$HOME/tiled" --version
           ./scripts/build.sh
-      - uses: actions/checkout@v2
-        with:
-          repository: 'freeside-network/freeside-station-built.git'
-          path: './freeside-station-built'
-          ref: main
       - run: |
-          cp ${GITHUB_WORKSPACE}/*.json ./freeside-station-built/
-          cat images_to_sync | xargs -I % cp % ./freeside-station-built/
+          mkdir bin
+          cp ${GITHUB_WORKSPACE}/*.json ./bin/
+          cat images_to_sync | xargs -I % cp % ./bin/
       - name: Push to the built repo
         uses: cpina/github-action-push-to-another-repository@master
         env:
           API_TOKEN_GITHUB: ${{ secrets.DEPLOY_TOKEN }}
         with:
-          source-directory: 'freeside-station-built'
+          source-directory: './bin'
           destination-github-username: 'freeside-bot'
           destination-repository-username: 'freeside-network'
           destination-repository-name: 'freeside-station-built'
