@@ -38,11 +38,11 @@ jobs:
       - run: |
           cp ${GITHUB_WORKSPACE}/*.json ./freeside-station-built/
           cat images_to_sync | xargs -I % cp % ./freeside-station-built/
-      - uses: actions-x/commit@v2
-        with: 
-          repository: 'https://github.com/freeside-network/freeside-station-built'
-          files: './freeside-station-built/.'
-          name: freeside-bot
-          branch: main
-          token: ${{ secrets.DEPLOY_TOKEN }}
-          force: true
+      - name: Push to the built repo
+        uses: cpina/github-action-push-to-another-repository@master
+        env: API_TOKEN_GITHUB: ${{ secrets.DEPLOY_TOKEN }}
+        with:
+          source-directory: 'freeside-station-built'
+          destination-github-username: 'freeside-bot'
+          destination-repository-name: 'freeside-station-built'
+          user-email: 'fart@buttz.com'
