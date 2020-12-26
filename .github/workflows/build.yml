@@ -47,3 +47,4 @@ jobs:
           destination-github-username: 'freeside-network'
           destination-repository-name: 'freeside-station-built'
           user-email: 'pugh+freesidebot@s3kr.it'
+          target-branch: 'main'
