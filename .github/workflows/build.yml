@@ -33,7 +33,7 @@ jobs:
       - run: |
           mkdir bin
           cp ${GITHUB_WORKSPACE}/*.json ./bin/
-          rsync -Pav --files-from=images-to-sync . ./bin/
+          rsync -Pav --files-from=images_to_sync . ./bin/
       - name: Push to the built repo
         uses: cpina/github-action-push-to-another-repository@master
         env:
