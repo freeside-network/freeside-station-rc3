@@ -44,6 +44,6 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.DEPLOY_TOKEN }}
         with:
           source-directory: 'freeside-station-built'
-          destination-github-username: 'freeside-bot'
+          destination-github-username: 'freeside-network'
           destination-repository-name: 'freeside-station-built'
-          user-email: 'fart@buttz.com'
+          user-email: 'pugh+freesidebot@s3kr.it'
