@@ -40,7 +40,8 @@ jobs:
           cat images_to_sync | xargs -I % cp % ./freeside-station-built/
       - name: Push to the built repo
         uses: cpina/github-action-push-to-another-repository@master
-        env: API_TOKEN_GITHUB: ${{ secrets.DEPLOY_TOKEN }}
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.DEPLOY_TOKEN }}
         with:
           source-directory: 'freeside-station-built'
           destination-github-username: 'freeside-bot'
