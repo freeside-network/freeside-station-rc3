@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="21" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="21" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="1">
  <tileset firstgid="1" source="tilesets/space.tsx"/>
  <tileset firstgid="577" source="tilesets/sci-fi.tsx"/>
  <tileset firstgid="1297" source="tilesets/structures.tsx"/>
@@ -792,7 +792,7 @@
  </layer>
  <layer id="9" name="exitMain" width="21" height="50">
   <properties>
-   <property name="exitUrl" value="main.json#cyberdeliaExit"/>
+   <property name="exitUrl" value="main.json#cyberdelia"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
