@@ -1,8 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="17" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="17" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="1">
  <tileset firstgid="1" source="tilesets/floors.tsx"/>
  <tileset firstgid="757" source="tilesets/arcade.tsx"/>
  <tileset firstgid="821" source="tilesets/Interior-Furniture.tsx"/>
+ <tileset firstgid="1077" source="tilesets/sci-fi.tsx"/>
+ <tileset firstgid="1797" source="tilesets/structures.tsx"/>
+ <layer id="6" name="collision" width="17" height="9">
+  <data encoding="csv">
+1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,
+1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,
+1797,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1797,
+1797,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1797,
+1797,0,0,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,0,0,1797,
+1797,0,0,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,0,0,1797,
+1797,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1797,
+1797,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1797,
+0,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="start" width="17" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,7,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="exit" width="17" height="9">
+  <properties>
+   <property name="exitUrl" value="main.json#arcade"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1488,7,7
+</data>
+ </layer>
  <layer id="1" name="base" width="17" height="9">
   <data encoding="csv">
 0,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,66,
@@ -42,4 +86,5 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="4" name="floorLayer"/>
 </map>
