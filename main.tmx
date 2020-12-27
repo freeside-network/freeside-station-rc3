@@ -33,6 +33,7 @@
  <tileset firstgid="9019" source="tilesets/tape2.tsx"/>
  <tileset firstgid="9023" source="tilesets/glow.tsx"/>
  <tileset firstgid="9031" source="tilesets/worldExit.tsx"/>
+ <tileset firstgid="9035" source="tilesets/floors.tsx"/>
  <layer id="55" name="sewer_exit" width="22" height="120">
   <properties>
    <property name="exitUrl" value="sewer.json"/>
@@ -2245,7 +2246,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9162,9162,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
