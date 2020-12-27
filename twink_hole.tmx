@@ -14,7 +14,7 @@
  <tileset firstgid="2303" source="tilesets/Interior-Furniture.tsx"/>
  <layer id="39" name="exit" width="32" height="32">
   <properties>
-   <property name="exitUrl" value="draft_freeside.json#test"/>
+   <property name="exitUrl" value="draft_freeside.json#twink_hole"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
