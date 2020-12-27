@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="vending" tilewidth="32" tileheight="32" tilecount="552" columns="24">
+<tileset version="1.4" tiledversion="1.4.3" name="vending" tilewidth="32" tileheight="32" tilecount="552" columns="24">
  <image source="../ss13-icons/obj/vending.png" width="768" height="736"/>
  <tile id="0">
   <properties>
@@ -920,6 +920,18 @@
   <properties>
    <property name="collides" type="bool" value="true"/>
   </properties>
+  <animation>
+   <frame tileid="183" duration="105"/>
+   <frame tileid="184" duration="105"/>
+   <frame tileid="185" duration="105"/>
+   <frame tileid="186" duration="105"/>
+   <frame tileid="187" duration="105"/>
+   <frame tileid="188" duration="105"/>
+   <frame tileid="189" duration="105"/>
+   <frame tileid="190" duration="105"/>
+   <frame tileid="191" duration="105"/>
+   <frame tileid="192" duration="105"/>
+  </animation>
  </tile>
  <tile id="184">
   <properties>

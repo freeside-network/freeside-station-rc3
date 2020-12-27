@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="structures" tilewidth="32" tileheight="32" tilecount="441" columns="21">
+<tileset version="1.4" tiledversion="1.4.3" name="structures" tilewidth="32" tileheight="32" tilecount="441" columns="21">
  <image source="../ss13-icons/obj/structures.png" width="672" height="672"/>
  <tile id="0">
   <properties>
@@ -1650,6 +1650,16 @@
   <properties>
    <property name="collides" type="bool" value="true"/>
   </properties>
+  <animation>
+   <frame tileid="329" duration="75"/>
+   <frame tileid="334" duration="75"/>
+   <frame tileid="332" duration="75"/>
+   <frame tileid="336" duration="75"/>
+   <frame tileid="330" duration="75"/>
+   <frame tileid="335" duration="75"/>
+   <frame tileid="331" duration="75"/>
+   <frame tileid="333" duration="75"/>
+  </animation>
  </tile>
  <tile id="330">
   <properties>
