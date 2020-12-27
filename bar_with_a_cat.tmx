@@ -46,6 +46,9 @@
 </data>
  </layer>
  <layer id="20" name="exit" width="32" height="32">
+  <properties>
+   <property name="exitUrl" value="main.json#bar_with_a_cat"/>
+  </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
