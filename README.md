@@ -63,7 +63,7 @@ Our CI will automatically handle building and exporting the JSONs, and uploading
 them to station.freeside.network. To access our station, simply point your web
 browser at the following internet website address:
 
-https://test.visit.at.wa-test.rc3.cccv.de/_/global/station.freeside.network/draft_freeside.json
+https://test.visit.at.wa-test.rc3.cccv.de/_/global/station.freeside.network/main.json
 
 To host, you need to upload the exported .json files and the ss13-icons directory
 to a publicly-accessible HTTPS endpoint with a content-origin policy that lets
