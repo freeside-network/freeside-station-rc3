@@ -80,3 +80,9 @@ To host, you need to upload the exported .json files and the ss13-icons director
 to a publicly-accessible HTTPS endpoint with a content-origin policy that lets
 https://test.visit.at.wa-test.rc3.cccv.de access it. Once uploaded, you can access your
 room by going to https://test.visit.at.wa-test.rc3.cccv.de/_/global/your.website.com/main.json
+
+Credits
+-------
+
+music used in pkmn room is:
+'Battlemech' by [Electric Pawer](https://3d63.itch.io/electric-pawer)
