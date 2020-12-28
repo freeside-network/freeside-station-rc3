@@ -39,6 +39,17 @@ then another layer above it (objectsBelow0), on which you could put the drinks.
 Jumping between rooms requires specially named layers - look in main.tmx and
 read the guide for examples on how.
 
+Adding a Jitsi room
+-----------
+
+In order to add a Jitsi room to your map place a tile layer with a property
+`jitsiRoom` set to a unique string. Place walkable tiles on this layer to
+indicate where people will automatically join the Jitsi room.  You can then
+move this layer all the way to the bottom in order to hide it.
+
+Areas with the same `jitsiRoom` properties lead to the same room even if placed
+on different sub maps.
+
 Exporting
 ---------
 
@@ -69,3 +80,9 @@ To host, you need to upload the exported .json files and the ss13-icons director
 to a publicly-accessible HTTPS endpoint with a content-origin policy that lets
 https://test.visit.at.wa-test.rc3.cccv.de access it. Once uploaded, you can access your
 room by going to https://test.visit.at.wa-test.rc3.cccv.de/_/global/your.website.com/main.json
+
+Credits
+-------
+
+music used in pkmn room is:
+'Battlemech' by 3D63 on [Electric Pawer](https://3d63.itch.io/electric-pawer)
