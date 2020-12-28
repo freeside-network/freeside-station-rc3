@@ -13,7 +13,7 @@
  <tileset firstgid="4007" source="tilesets/jitsi_warning.tsx"/>
  <layer id="14" name="jitsi" width="15" height="13">
   <properties>
-   <property name="jitsiRoom" value="table1"/>
+   <property name="jitsiRoom" value="bar"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

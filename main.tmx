@@ -44,7 +44,7 @@
  <tileset firstgid="9815" source="tilesets/jitsi_warning.tsx"/>
  <layer id="71" name="hackerspaceJitsi" width="22" height="120">
   <properties>
-   <property name="jitsiRoom" value="hackerspace"/>
+   <property name="jitsiRoom" value="bar"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
