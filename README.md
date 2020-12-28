@@ -85,4 +85,4 @@ Credits
 -------
 
 music used in pkmn room is:
-'Battlemech' by [Electric Pawer](https://3d63.itch.io/electric-pawer)
+'Battlemech' by 3D63 on [Electric Pawer](https://3d63.itch.io/electric-pawer)

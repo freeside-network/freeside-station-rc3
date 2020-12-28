@@ -75,7 +75,7 @@
  </layer>
  <layer id="6" name="music" width="36" height="30">
   <properties>
-    <property name="playAudioLoop" value="freeside/ccity.mp3"/>
+    <property name="playAudioLoop" value="https://hangar.rc3.world/freeside/ccity.mp3"/>
   </properties>
   <data encoding="csv">
 396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,
