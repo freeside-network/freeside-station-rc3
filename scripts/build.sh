@@ -10,5 +10,8 @@ cat images_to_sync
 # Sync main files
 rsync -Pav -e "ssh -o 'StrictHostKeyChecking=no' -i $SSH_KEY_PATH" ${GITHUB_WORKSPACE}/*.json freesidestn@freeside.network:
 
+# Sync MP3s
+rsync -Pav -e "ssh -o 'StrictHostKeyChecking=no' -i $SSH_KEY_PATH" ${GITHUB_WORKSPACE}/*.mp3 freesidestn@freeside.network:
+
 # And sync matched resources
 rsync -Pav -e "ssh -o 'StrictHostKeyChecking=no' -i $SSH_KEY_PATH" --files-from=images_to_sync . freesidestn@freeside.network:
