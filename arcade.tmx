@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="17" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="17" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
  <tileset firstgid="1" source="tilesets/floors.tsx"/>
  <tileset firstgid="757" source="tilesets/arcade.tsx"/>
  <tileset firstgid="821" source="tilesets/Interior-Furniture.tsx"/>
@@ -8,6 +8,7 @@
  <tileset firstgid="2238" source="tilesets/arcade5.tsx"/>
  <tileset firstgid="2302" source="tilesets/arcade4.tsx"/>
  <tileset firstgid="2366" source="tilesets/arcade3.tsx"/>
+ <tileset firstgid="2430" source="tilesets/pkmn.tsx"/>
  <layer id="6" name="collision" width="17" height="9">
   <data encoding="csv">
 1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,
@@ -18,7 +19,7 @@
 1797,0,0,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,0,0,1797,
 1797,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1797,
 1797,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1797,
-0,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,0,0,0
+0,0,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,1797,0,0,0
 </data>
  </layer>
  <layer id="5" name="start" width="17" height="9">
@@ -90,4 +91,20 @@
 </data>
  </layer>
  <objectgroup id="4" name="floorLayer"/>
+ <layer id="8" name="z0mgsecretexit" width="17" height="9">
+  <properties>
+   <property name="exitUrl" value="pkmn.json#start"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
 </map>
