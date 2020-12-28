@@ -43,9 +43,12 @@ Adding a Jitsi room
 -----------
 
 In order to add a Jitsi room to your map place a tile layer with a property
-`jitsiRoom` set to a unique string (at the map level). Place walkable tiles on
-this layer to indicate where people will automatically join the Jitsi room.
-You can then move this layer all the way to the bottom in order to hide it.
+`jitsiRoom` set to a unique string. Place walkable tiles on this layer to
+indicate where people will automatically join the Jitsi room.  You can then
+move this layer all the way to the bottom in order to hide it.
+
+Areas with the same `jitsiRoom` properties lead to the same room even if placed
+on different sub maps.
 
 Exporting
 ---------
