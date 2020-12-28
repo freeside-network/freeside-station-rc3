@@ -39,6 +39,14 @@ then another layer above it (objectsBelow0), on which you could put the drinks.
 Jumping between rooms requires specially named layers - look in main.tmx and
 read the guide for examples on how.
 
+Adding a Jitsi room
+-----------
+
+In order to add a Jitsi room to your map place a tile layer with a property
+`jitsiRoom` set to a unique string (at the map level). Place walkable tiles on
+this layer to indicate where people will automatically join the Jitsi room.
+You can then move this layer all the way to the bottom in order to hide it.
+
 Exporting
 ---------
 
