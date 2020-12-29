@@ -54,7 +54,7 @@
  </layer>
  <layer id="23" name="soundAngryCat" width="32" height="32">
   <properties>
-   <property name="playAudio" value="sounds/angry_cat.mp3"/>
+   <property name="playAudio" value="angry_cat.mp3"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
