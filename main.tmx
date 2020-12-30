@@ -44,6 +44,7 @@
  <tileset firstgid="9815" source="tilesets/jitsi_warning.tsx"/>
  <tileset firstgid="9851" source="tilesets/brokentiling.tsx"/>
  <tileset firstgid="9871" source="tilesets/singulo.tsx"/>
+ <tileset firstgid="9999" source="tilesets/floppy_hue_special.tsx"/>
  <layer id="71" name="hackerspaceJitsi" width="22" height="120">
   <properties>
    <property name="jitsiRoom" value="bar"/>
@@ -5831,7 +5832,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,9999,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
