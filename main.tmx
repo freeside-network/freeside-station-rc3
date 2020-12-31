@@ -175,7 +175,7 @@
  </layer>
  <layer id="74" name="singulo_tele" width="22" height="120">
   <properties>
-   <property name="exitUrl" value="singulu.json#start"/>
+   <property name="exitUrl" value="singulo.json#start"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
