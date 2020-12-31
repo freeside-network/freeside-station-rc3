@@ -5852,6 +5852,7 @@
  <layer id="73" name="stickerbox" width="22" height="120">
   <properties>
    <property name="getBadge" value="0JsEjgL360bvuaaebJBKfFOXTNOQkB3BUmocwlIMzucFByYzoP "/>
+   <property name="openWebsite" value="https://rc3.world/rc3/me/redeem_badge/GtcGw9e30TnG6uMb8uKvyPX97WaqxxMwnsb3MXWrnZFO8aqWJN"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
