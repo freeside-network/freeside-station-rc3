@@ -39,9 +39,9 @@
 0,0,0,1262,1262,1262,1262,0,0,0
 </data>
  </layer>
- <layer id="5" name="collision" width="10" height="8">
+ <layer id="5" name="collides" width="10" height="8">
   <properties>
-   <property name="collision" type="bool" value="true"/>
+   <property name="collides" type="bool" value="true"/>
   </properties>
   <data encoding="csv">
 1923,1923,1923,1923,1923,1923,1923,1923,1923,1923,
