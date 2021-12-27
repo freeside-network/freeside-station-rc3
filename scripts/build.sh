@@ -3,7 +3,7 @@ for f in ${GITHUB_WORKSPACE}/*.tmx; do
   xvfb-run "$HOME/tiled" --embed-tilesets --export-map "$f" "${f%.tmx}.json"
 done
 
-cat ${GITHUB_WORKSPACE}/*.json | jq -r '.tilesets[].image' | sort -u > images_to_sync
+cat ${GITHUB_WORKSPACE}/*.json | jq -r '.tilesets[].image' | grep -v '^null$' | sort -u > images_to_sync
 
 cat images_to_sync
 
